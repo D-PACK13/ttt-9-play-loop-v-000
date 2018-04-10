@@ -41,7 +41,7 @@ def play(board)
   loop do
     counter = counter + 1
     turn(board)
-    if counter >= 1
+    if counter >= 5
       break
     end
   end
