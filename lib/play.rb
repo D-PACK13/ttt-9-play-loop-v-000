@@ -37,6 +37,7 @@ end
 
 # Define your play method below
 def play(board)
+  turn(board)
   counter = 0
   loop do
     counter = counter +10
